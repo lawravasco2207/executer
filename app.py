@@ -4,7 +4,7 @@ import datetime
 
 app = Flask(__name__)
 
-BASE_DIRECTORY = "/storage/emulated/0/DCIM"  # Change this if needed
+BASE_DIRECTORY = "/storage/emulated/0/DCIM/Camera"  # Change this if needed
 
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tiff", ".webp"}  # Supported image types
 
