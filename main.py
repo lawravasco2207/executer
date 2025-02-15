@@ -55,4 +55,4 @@ def delete_images():
     return f"{result} <br><a href='/'>Go back</a>."
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
